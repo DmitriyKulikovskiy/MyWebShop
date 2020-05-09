@@ -1,0 +1,36 @@
+
+/* Header menu */
+
+.header {
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0,0,0,0.8);
+    width: auto;
+    height: 70px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .header .white {
+    color: rgb(255, 255, 255);
+  }
+  
+  .header .pink {
+    color: rgb(246, 81, 108);
+  }
+  
+  .header .shoppingBag {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: 3px;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .header span img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+  }
+

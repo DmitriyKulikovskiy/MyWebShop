@@ -1,0 +1,59 @@
+.store-container {
+    background-color: rgba(184, 184, 184,0.2);
+    border: 1px solid rgb(246, 81, 108);
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.store-container .titleStore {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+hr {
+    background-color: rgb(255, 86, 114);
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+
+.store-container .goods-class {
+    margin: 0 1px 0 1px;
+    padding: 0 12px 0 12px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.store-container .goods-class .title-class {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+
+.store-container .goods-class .hide-class {
+    display: none;
+}
+
+.store-container .goods-class .show-class {
+    display: block;
+}
+
+.titleStore img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.title-class img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.macBook {
+    margin: 0 0 0 3px !important;
+}
+
+

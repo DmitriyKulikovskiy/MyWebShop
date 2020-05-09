@@ -1,0 +1,166 @@
+.model a {
+    text-decoration: none;
+    color: rgb(85, 1, 15);
+    font-style: unset;
+}
+
+.model a:hover {
+    color: rgb(255, 86, 114);
+}
+
+/* current iPhone */
+
+.gadget-container {
+    background-color: rgba(184, 184, 184,0.2);
+    border: 1px solid rgb(246, 81, 108);
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.gadget-title {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.gadget-title img {
+    text-align: left !important;
+}
+
+hr {
+    background-color: rgb(255, 86, 114);
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.gadget-available {
+    font-size: 16px;
+    color: rgb(37, 165, 80);
+}
+
+.gadget-rating {
+    font-size: 16px;
+    color: rgb(236, 190, 38);
+}
+
+.gadget-rating span {
+    font-weight: bold;
+}
+
+.gadget-rating img {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 3px;
+}
+
+.gadget-available img {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 3px;
+}
+
+.gadget-price {
+    font-size: 20px;
+}
+
+.gadget-delivery-options {
+    font-size: 18px;
+}
+.gadget-delivery-options a {
+    color: rgb(133, 81, 89);
+}
+
+.gadget-delivery-options a:hover {
+    color: rgb(246, 81, 108);
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.gadget-img img {
+    border: 1px solid rgb(246, 81, 108);
+    width: 280px;
+    height: 300px;
+    margin-top: 5px;
+}
+
+.gadget-description  {
+    font-size: 16px;
+    margin-top: 5px
+}
+
+.gadget-description span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(246, 81, 108);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 6px 0 6px;
+    width: auto;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 8px 0px 10px 0 !important;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .gadget-show-more {
+    margin: 5px 0 10px 0;
+  }
+
+  .gadget-show-more span {
+    background-color: rgb(246, 81, 108);
+    padding: 2px 5px 2px 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-style: italic;
+    cursor: pointer;
+  }
+
+  .gadget-hide-info{
+      display: none;
+  }
+
+  .gadget-hide-info-show {
+      display: block;
+  }
+
+  .go-back {
+      cursor: pointer;
+  }
+
+ 

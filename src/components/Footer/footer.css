@@ -1,0 +1,19 @@
+footer {
+    position: absolute;
+    bottom: -5%;
+    width: 100%;   
+    height: auto;
+    color: #fff;
+
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.made {
+    font-size: 20px;
+}
+
+.made span {
+    color: rgb(246, 81, 108);
+}

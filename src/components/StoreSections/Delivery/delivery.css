@@ -1,0 +1,37 @@
+.delivery-container {
+    background-color: rgba(184, 184, 184,0.2);
+    border: 1px solid rgb(246, 81, 108);
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+hr {
+    background-color: rgb(255, 86, 114);
+    margin-top: 5px !important;
+}
+
+.icon-delivery {
+    width: 45px;
+    height: 45px;
+}
+
+.call {
+    color: rgb(53, 52, 52);
+}
+
+.call img {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 3px;
+}
+
+.call span {
+    color: rgb(255, 86, 114);
+}

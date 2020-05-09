@@ -1,0 +1,35 @@
+.facebook {
+    margin-top: 10px;
+    
+}
+
+.facebook button {
+    padding: 5px;
+    width: 221px;
+    height: 38px;
+}
+
+.joinDone {
+    font-family: Helvetica,sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.logOut {
+    width: 221px;
+    height: 38px;
+    text-align: center;
+    margin: auto;
+    font-family: Helvetica,sans-serif;
+    color: #fff;
+    padding-top: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4c69ba;
+}
+
+.joinDone span {
+    color:  rgb(246, 81, 108);
+}
