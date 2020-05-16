@@ -1,11 +1,11 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunkMiddleware from "redux-thunk";
-import mainReducer from "./main-reducer";
+import phoneReducer from "./cart-reducer";
 
 
 
 let reducers = combineReducers({
-     mainReducer
+     phoneReducer
 });
 
 //tool from Chrome 'redux'

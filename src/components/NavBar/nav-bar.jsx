@@ -29,7 +29,7 @@ const NavBar = () => {
                 </div>
                 <div>
                     <li className='lastNavItem'>
-                        <NavLink to='/Profile'>Profile</NavLink>
+                        <NavLink to='/ShoppingCart'>Cart</NavLink>
                     </li>
                 </div>
              </ul>

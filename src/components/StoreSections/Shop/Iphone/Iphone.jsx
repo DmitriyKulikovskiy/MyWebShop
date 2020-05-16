@@ -1,30 +1,27 @@
-import React, { useState,useEffect } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './gadget.css'
-import { getPhone } from '../../../../API/getApiJson';
 
-const Iphone = () => {
+const Iphone = ({phones,searchQuery}) => {
 
-  const [iphone, setIphone] = useState([]);
+  const getSearchItems = searchQuery && searchQuery.trim().length ? phones.filter(p => {
+    if(p && p.body && p.body.model && p.body.model.toLowerCase().includes(searchQuery.toLowerCase())){
+      return p
+    }
+  }) : phones
 
-  useEffect(() => {
-      getPhone.then(({data}) => {
-        setIphone(data)
-      })
-    },[]
-  )
-  
-  const filterIphone = iphone.map((p, index) => 
+  const iphoneList = getSearchItems.map((p, index) => 
     (<div className="model" key={index}>
-      <NavLink to={`/CurrentIphone/${p.id}`}>{p.body.model}</NavLink>
+      <NavLink to={'/p/' + p.id}>{p.body.model}</NavLink>
     </div>
   ))
 
   return (
     <div>
-      {filterIphone}
+      {iphoneList}
     </div>
   );
 };
 
 export default Iphone;
+

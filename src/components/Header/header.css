@@ -25,12 +25,16 @@
     right: 0;
     margin-right: 3px;
     font-size: 18px;
-    color: #fff;
   }
 
   .header span img {
     width: 28px;
     height: 28px;
     cursor: pointer;
+  }
+
+  .header .shoppingBag a {
+    color: #fff;
+    text-decoration: none;
   }
 

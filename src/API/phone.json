@@ -4,7 +4,7 @@
         "id": "Iphone-11-Pro-Max",
         "body": {
             "model": "iPhone 11 Max Pro",
-            "price": "1499$",
+            "price": "1499",
             "description": {
                 "screenSize": "6.5 in",
                 "cameraResolution": "12.0MP [3]",
@@ -23,7 +23,7 @@
         "id": "Iphone-11-X",
         "body": {
             "model": "iPhone 11 X",
-            "price": "1399$",
+            "price": "1399",
             "description": {
                 "screenSize": "6.5 in",
                 "cameraResolution": "12.0MP + 12.OMP + 12.OMP",
@@ -42,7 +42,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone 11",
-            "price": "1399$",
+            "price": "399",
             "description": []
         }
     },
@@ -51,7 +51,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone SE 2",
-            "price": "1399$",
+            "price": "2399",
             "description": []
         }
     },
@@ -60,7 +60,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone XS Max",
-            "price": "1399$",
+            "price": "4399",
             "description": []
         }
     },
@@ -69,7 +69,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone XS",
-            "price": "1399$",
+            "price": "5399",
             "description": []
         }
     },
@@ -79,7 +79,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone XR",
-            "price": "949$",
+            "price": "649",
             "description": []
         }
     },
@@ -88,7 +88,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone X",
-            "price": "899$",
+            "price": "899",
             "description": []
         }
     },
@@ -97,7 +97,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone 8 Plus",
-            "price": "1399$",
+            "price": "1399",
             "description": []
         }
     },
@@ -106,7 +106,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone 8",
-            "price": "1399$",
+            "price": "1399",
             "description": []
         }
     },
@@ -115,7 +115,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone 7 Plus",
-            "price": "1399$",
+            "price": "1399",
             "description": []
         }
     },
@@ -124,7 +124,7 @@
         "body": {
             "section": "phone",
             "model": "iPhone 7",
-            "price": "1399$",
+            "price": "1399",
             "description": []
         }
     }

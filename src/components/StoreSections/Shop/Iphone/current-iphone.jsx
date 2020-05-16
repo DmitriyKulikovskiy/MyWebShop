@@ -1,41 +1,32 @@
-import React, {useState,useEffect} from 'react'
-import { getPhone } from '../../../../API/getApiJson';
+import React, {useState} from 'react'
 import './gadget.css'
 import { NavLink } from 'react-router-dom';
 
 const iconDone = <img src="https://img.icons8.com/color/48/000000/checkmark.png"/>
 const rating = <img src="https://img.icons8.com/color/48/000000/hand-drawn-star.png"/>
 
-const CurrentIphone = ({match}) =>{
-  
+const CurrentIphone = ({phones,match,addToCart}) =>{
+ 
     const {params} = match; 
     const {id} = params;
-
+  
     const [showMore, setShowMore] = useState(false);
 
     const useShowMore = () => {
       setShowMore(!showMore);
     }
 
-    const [deviceInfo, setDeviceInfo] = useState([])
-
-    useEffect(()=>{
-        getPhone.then(({data}) => {
-          setDeviceInfo(data)
-        })
-      },[]
-    )
 
     return(
       <div className='container'>
         <div className='gadget-container'> 
-          {deviceInfo.map(el => el.id === id 
+          {phones.map(el => el.id === id 
             ? <div key={el.id}>
                 <div className='gadget-title'>{el.body.model}</div>
                 <hr />
                 <div className='gadget-available'>{iconDone} {el.body.available}</div>
                 <div className='gadget-rating'>{rating}Rating: <span>10</span></div>
-                <div className='gadget-price'>Price: {el.body.price}</div>
+                <div className='gadget-price'>Price: {el.body.price}$</div>
                 <div className='gadget-delivery-options'>Read more about: <NavLink to='/Delivery'>delivery shipping</NavLink></div> 
                 <div className='gadget-img'><img src={el.body.photo}/></div>
                 <div className='gadget-description'>
@@ -58,7 +49,7 @@ const CurrentIphone = ({match}) =>{
                   </div>
                 </div>
                 <hr />
-                <button className='gadget-add-to-cart'><span>Add to cart </span></button>
+                <button onClick={() => addToCart(el)}  className='gadget-add-to-cart'><span>Add to cart </span></button>
                </div> 
             : null)
           }

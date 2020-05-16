@@ -1,0 +1,121 @@
+body {
+  counter-reset: section; 
+}
+
+.cart-container {
+    background-color: rgba(184, 184, 184,0.2);
+    border: 1px solid rgb(246, 81, 108);
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px; 
+}
+
+.purchases {
+    background-color: rgba(184, 184, 184, 0.404);
+    height: auto;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 4px;
+    margin: 10px 0 20px 0;
+    padding: 0 3px 0 3px;
+    font-size: 15px;
+    font-style: italic;
+    max-width: 288px;
+    display: inline-block;
+}
+
+.cart-container .icon-title  {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.iconShop {
+    margin-bottom: 6px;
+    width: 50px;
+    height: 50px;
+}
+
+hr {
+    background-color: rgb(255, 86, 114);
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.numeration{
+    display: inline-block;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 22px 3px 0 0;
+  }
+  
+.numeration::before {
+    counter-increment: section;                
+    content: '№' counter(section);
+}
+
+.total-price {
+    font-size: 25px;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(246, 81, 108);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 6px 0 6px;
+    width: auto;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 8px 0px 10px 0 !important;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .iconCart {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-delete {
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    cursor: pointer;
+  }
+
+  .clear-all {
+    margin-right: 5px !important;
+  }

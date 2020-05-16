@@ -56,4 +56,24 @@ hr {
     margin: 0 0 0 3px !important;
 }
 
+.search-bar img {
+    margin-bottom: 7px;
+}
+
+.search-bar input {
+    width: 50%;
+    text-align: center;
+    margin: 5px 0 5px 0;
+    background-color: #fff;
+
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+.search-bar input:hover {
+    background-color: rgba(187, 186, 186, 0.726);
+}
+
 
