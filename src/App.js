@@ -8,14 +8,13 @@ import CurrentIphoneContainer  from './components/StoreSections/Shop/Iphone/curr
 import HeaderContainer from './components/Header/header-container'
 import ShoppingCartContainer from './components/ShoppingCart/shopping-cart-container'
 import GoodsContainer from './components/StoreSections/Shop/goods-container'
+import CheckoutContainer from './components/Checkout/chekout-container'
 
 
 const App = () => {
-
   return  (
-    <div >
-      {/* <Redirect to="/Shop" /> */}
-  
+    <div>
+      <CheckoutContainer />
       <HeaderContainer />
         <div>
           <Route path="/ShoppingCart" render={() => <ShoppingCartContainer />} />
@@ -33,5 +32,5 @@ const App = () => {
   )
 }
 
+export default App
 
-export default App;

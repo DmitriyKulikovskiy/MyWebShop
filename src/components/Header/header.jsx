@@ -2,9 +2,7 @@ import React  from 'react'
 import './header.css'
 import NavBar from '../NavBar/nav-bar';
 import { NavLink } from 'react-router-dom';
-
-
-const shoppingBag = <img alt='shopping cart' src="https://image.flaticon.com/icons/svg/265/265731.svg"/>;
+import { shoppingBag } from '../../assets/icons';
 
 const Header = ({totalCount}) => {
 

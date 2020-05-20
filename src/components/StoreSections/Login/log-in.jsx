@@ -1,13 +1,7 @@
 import React from 'react'
 import './log-in.css'
 import LoginFacebook from './LoginFacebook/login-facebook';
-
-const logInDescription = <div>
-                            By creating an account on our website, 
-                            you will spend less time processing of your commission, 
-                            ability to post comments, 
-                            track the status of orders, and much more.
-                        </div>
+import { logInDescription } from '../../../assets/text';
 
 const LogIn = () => {
     return(

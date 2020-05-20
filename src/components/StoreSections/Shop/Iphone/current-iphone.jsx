@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import './gadget.css'
 import { NavLink } from 'react-router-dom';
-
-const iconDone = <img src="https://img.icons8.com/color/48/000000/checkmark.png"/>
-const rating = <img src="https://img.icons8.com/color/48/000000/hand-drawn-star.png"/>
+import { iconDone,rating } from '../../../../assets/icons';
+import FeedbackContainer from './feedback-container'
 
 const CurrentIphone = ({phones,match,addToCart}) =>{
  
@@ -50,6 +49,7 @@ const CurrentIphone = ({phones,match,addToCart}) =>{
                 </div>
                 <hr />
                 <button onClick={() => addToCart(el)}  className='gadget-add-to-cart'><span>Add to cart </span></button>
+                <FeedbackContainer />
                </div> 
             : null)
           }

@@ -1,14 +1,7 @@
 import React from "react";
 import "./goods.css";
 import IphoneContainer from "./Iphone/iphone-container";
-
-const storeImg = <img src="https://img.icons8.com/carbon-copy/50/000000/mac-os.png"/>
-const iPhoneImg = <img src="https://img.icons8.com/pastel-glyph/64/000000/iphone-x--v1.png"/>
-const macBookImg = <img className='macBook' src="https://img.icons8.com/ios-glyphs/30/000000/macbook.png"/>
-const iPadImg =  <img src="https://img.icons8.com/wired/64/000000/ipad.png"/>
-const appleWatchImg = <img src="https://img.icons8.com/dotty/80/000000/apple-watch.png"/>
-const airPodsImg = <img src="https://img.icons8.com/dotty/80/000000/earbud-headphones.png"/>
-const searchImg = <img src="https://img.icons8.com/material-two-tone/24/000000/search.png"/>
+import { storeImg,iPhoneImg,macBookImg,iPadImg,appleWatchImg,airPodsImg,searchImg } from "../../../assets/icons";
 
 const Goods = ({searchQuery,searchItem}) => {
 

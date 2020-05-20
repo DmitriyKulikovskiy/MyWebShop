@@ -12,7 +12,7 @@ import store from './redux/store';
 
 ReactDOM.render(
     <HashRouter>
-        <Provider store={store}>
+        <Provider store={store} >
             <App />
         </Provider>
     </HashRouter>

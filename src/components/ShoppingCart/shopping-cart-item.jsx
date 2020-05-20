@@ -1,12 +1,12 @@
 import React from 'react'
 import './shopping-cart.css'
-
+import { iconDelete } from '../../assets/icons'
 
 const ShoppingCartItem = ({body,removeItem}) => {
+    
     const iconCart = <img alt='iconShop' className='iconCart' src={body.photo}/>
-    const iconDelete = <img className='icon-delete' src="https://img.icons8.com/flat_round/64/000000/delete-sign.png"/>
     return (
-        <div>
+        <div className='cart-item'>
             <span className='numeration' ></span>
             <div className='purchases'>{iconCart} {body.model} - {body.price}$</div>
             <span onClick={removeItem}>{iconDelete}</span>

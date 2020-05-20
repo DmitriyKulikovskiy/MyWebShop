@@ -94,49 +94,6 @@ hr {
     font-weight: bold;
 }
 
-button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: rgb(246, 81, 108);
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0 6px 0 6px;
-    width: auto;
-    height: 40px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 8px 0px 10px 0 !important;
-}
-
-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  button:hover span {
-    padding-right: 25px;
-  }
-  
-  button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
   .gadget-show-more {
     margin: 5px 0 10px 0;
   }
@@ -151,6 +108,11 @@ button span {
     cursor: pointer;
   }
 
+  .gadget-show-more span:hover{
+    background-color: rgb(238, 69, 69);
+    transition: 0.3s;
+  }
+
   .gadget-hide-info{
       display: none;
   }
@@ -159,6 +121,94 @@ button span {
       display: block;
   }
 
+  .container-feedback {
+      font-size: 20px;
+  }
 
-  
+  .container-feedback span:hover {
+      color: rgb(246, 81, 108);
+      cursor: pointer;
+  }
+
+  .container-feedback img {
+      width: 40px;
+      height: 40px;
+  }
+
+  .showOpen {
+      display: block;
+  }
+
+  .closeOpen {
+      display: none;
+  }
+
+  /* comment's part */
+
+  .text-but-container {
+      position: relative;
+  }
+
+  textarea {
+    width: 50%;
+    padding: 0 20px;
+    margin-top: 10px !important;
+    background: rgb(255, 255, 255);
+    line-height: 40px;
+    border-width: 1;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .add {
+      margin-left: 4px !important;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 6px;
+  }
+
+  .add:hover {
+      background-color: rgb(238, 69, 69);
+      transition: 0.3s;
+  }
+
+  .comments-container .name-img{
+      width: 30px;
+      height: 30px;
+      margin-bottom: 2px;
+  }
+
+  .comments-container .comment-container .name span img{
+    width: 28px;
+    height: 28px;
+    margin-left: 4px;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.like img, .dislike img {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.text {
+    margin: 0 0 30px 10px;
+    font-size: 22px;
+    font-style: italic;
+}
+
+/* date */
+.date {
+    font-size: 14px !important;
+    margin-left: 20px;
+}
+
+.date:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+ 
  

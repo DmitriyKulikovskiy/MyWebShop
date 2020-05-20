@@ -1,19 +1,28 @@
 footer {
-    position: absolute;
-    bottom: -5%;
-    width: 100%;   
-    height: auto;
     color: #fff;
-
     font-family: 'Bebas Neue', cursive;
-    background-color: rgba(0,0,0,0.8);
     text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .made {
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
 }
 
 .made span {
     color: rgb(246, 81, 108);
+}
+
+.footer-hr {
+    width: 25%;
+}
+
+.react {
+    color: rgb(33, 165, 226) !important;
+}
+
+.redux {
+    color: rgb(159, 14, 226) !important;
 }

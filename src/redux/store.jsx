@@ -1,11 +1,13 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunkMiddleware from "redux-thunk";
 import phoneReducer from "./cart-reducer";
-
-
+import feedbackReducer from "./feedback-reducer";
+import checkOutReducer from "./checkout-reducer";
 
 let reducers = combineReducers({
-     phoneReducer
+     phoneReducer,
+     feedbackReducer,
+     checkOutReducer
 });
 
 //tool from Chrome 'redux'

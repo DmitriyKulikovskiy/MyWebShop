@@ -1,11 +1,7 @@
 import React from 'react'
 import './delivery.css'
 import { delivery, fastDelivery, fasterDelivery, fastestDelivery } from '../../../assets/text'
-
-const fast = <img className='icon-delivery' src="https://img.icons8.com/carbon-copy/100/000000/1.png"/>
-const faster = <img className='icon-delivery' src="https://img.icons8.com/carbon-copy/100/000000/2.png"/>
-const fastest = <img className='icon-delivery' src="https://img.icons8.com/carbon-copy/100/000000/3.png"/>
-const phone = <img src="https://img.icons8.com/android/24/000000/phone.png"/>
+import { fast, faster, fastest, phone } from '../../../assets/icons'
 
 const  Delivery = () => {
     return (

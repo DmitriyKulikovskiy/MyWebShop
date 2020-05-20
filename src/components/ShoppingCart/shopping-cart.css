@@ -61,49 +61,6 @@ hr {
     font-size: 25px;
 }
 
-button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: rgb(246, 81, 108);
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0 6px 0 6px;
-    width: auto;
-    height: 40px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 8px 0px 10px 0 !important;
-}
-
-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  button:hover span {
-    padding-right: 25px;
-  }
-  
-  button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
   .iconCart {
     width: 50px;
     height: 50px;
@@ -119,3 +76,19 @@ button span {
   .clear-all {
     margin-right: 5px !important;
   }
+
+
+  .total-price a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+.total-price a:hover {
+  color: rgb(246, 81, 108);
+}
+
+.cart-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+ 
